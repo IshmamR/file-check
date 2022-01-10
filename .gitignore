@@ -1,0 +1,5 @@
+dist
+node_modules
+
+test_files
+src/test.ts

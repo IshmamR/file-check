@@ -1,0 +1,25 @@
+{
+  "name": "@promethewz/file-check",
+  "description": "validate file type of any file with a single line of code.",
+  "version": "1.0.0",
+  "author": "IshmamR <ishmam785@gmail.com> (https://portfolio.ishmams.xyz/)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsc && node dist/test.js",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "private": false,
+  "engines": {
+    "node": "14.x.x"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
+}
